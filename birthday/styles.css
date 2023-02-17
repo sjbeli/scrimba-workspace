@@ -8,3 +8,27 @@ Don't know how to make an image round? Google it!
 Also, consider how you should select the image 
 (class vs id vs element selector).
 */
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: #fff;
+    font-family: 'Happy Monkey', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+ h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+ }
+
+ h2, h4 {
+    background: #EFB0C9;
+ }
