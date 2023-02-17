@@ -1,6 +1,6 @@
 .container {
     border: 8px solid #016a26;
-    height: 260px;
+    height: 360px;
     /*
     Challenge:
     Follow my orders on where we should
@@ -13,7 +13,11 @@
     align-items:
     start, center, end
     */
-    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
 .item {
