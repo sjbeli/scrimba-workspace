@@ -91,12 +91,22 @@ h1, h2, h3, h4, p {
 }
 
 footer {
-    margin: 40px auto 20px;
-    width: var(--width);
+    margin: 40px auto 0;
     font-style: italic;
 }
+.right {
+    font-size: 0.75rem;
+    text-align: right;
+    color: #666;
+    margin-top: 30px;
+}
+span {
+    display: block;
+    margin-bottom: 4px;
+}
 a {
-    color: white;
+    color: steelblue;
+    transition: ease-in-out 0.3s all;
 }
 a:hover {
     text-decoration: none;
