@@ -61,13 +61,13 @@ button:hover {
 }
 
 #increment-btn {
-    background: saddlebrown;
+    background: blue;
 }
 
 #save-btn {
-    background: darkolivegreen;
+    background: darkgreen;
 }
 
 .refresh {
-    background: darksalmon;
+    background: darkorange;
 }
