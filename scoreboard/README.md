@@ -1,2 +1,2 @@
-# simple scoreboard
+# basketball scoreboard
  

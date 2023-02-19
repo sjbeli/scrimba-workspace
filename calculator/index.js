@@ -1,5 +1,6 @@
-let num1 = 10
-let num2 = 5
+
+let num1 = 12
+let num2 = 2
 document.getElementById("num1-el").textContent = num1
 document.getElementById("num2-el").textContent = num2
 
@@ -10,25 +11,28 @@ document.getElementById("num2-el").textContent = num2
 
 // E.g. if the user clicks on the "Plus" button, you should render
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
+
 let sumEl = document.getElementById("sum-el")
+//  holds the html output here: <span id="sum-el">Sum: </span>
 
 function add() {
-    let result = num1 + num2
-    sumEl.textContent = "Sum: " + result
+   let result = num1 + num2
+//  add the 2 numbers
+   sumEl.textContent = "Sum: " + result
+//  attach output
 }
-
 function subtract() {
     let result = num1 - num2
+
     sumEl.textContent = "Sum: " + result
 }
-
 function divide() {
     let result = num1 / num2
+
     sumEl.textContent = "Sum: " + result
 }
-
 function multiply() {
     let result = num1 * num2
+
     sumEl.textContent = "Sum: " + result
 }
-
