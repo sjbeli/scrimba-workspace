@@ -95,10 +95,11 @@ footer {
     font-style: italic;
 }
 .right {
-    font-size: 0.75rem;
+    /* font-size: 0.75rem; */
     text-align: right;
     color: #666;
-    margin-top: 30px;
+    margin: 20px;
+    
 }
 span {
     display: block;
