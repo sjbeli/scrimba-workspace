@@ -4,10 +4,10 @@ let guestScore = document.getElementById('guest-score')
 let countHome = 0
 let countGuest = 0
 
-// initialze scores
-resetScore()
+// initialze & set / reset scores
+setScore()
 
-function resetScore(){
+function setScore(){
     homeScore.textContent = 0
     guestScore.textContent = 0
     countHome = 0
