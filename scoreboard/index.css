@@ -7,11 +7,20 @@
     scroll-behavior: smooth;
   } /* END RESET */
 
+  :root {
+    --blue1: #003786;
+    --hoverblue: #0476D0;
+    --brown1: #514A00;
+    --brown2: #817603;
+
+  }
+
 body {
     display: flex;
     flex-direction: column;
     margin: 2.5rem auto 1rem;
     text-align: center;
+    width: 100%;
     min-width: 320px;
     max-width: 1000px;
 }
@@ -22,7 +31,7 @@ body {
     border-radius: 1rem;
     margin: 2rem 0.75rem 0;
     padding: 3rem 1rem 4rem;
-    background: #1B244A;
+    background: var(--blue1);
 }
 
 .container > div:first-child {
@@ -32,6 +41,7 @@ body {
 h1 {
     font-size: 2.25rem;
     margin: 0 1.5rem 1.75rem;
+    color: var(--blue1);
 }
 h3 {
     color: white;
@@ -62,7 +72,7 @@ h3 {
 
 .period {
     font-size: 2.25rem;
-    background: darkgray;
+    background: var(--brown2);
     color: white;
     margin-top: 0.5rem;
     padding-top: 1rem;
@@ -97,9 +107,9 @@ button:active {
 #reset, .period button {
     width: 300px;
     font-size: 1.5rem;
-    background: green;
+    background: var(--brown1);
     color: white;
-    border: 1px solid transparent;
+    border: none;
 }
 
 .period button {
@@ -107,8 +117,5 @@ button:active {
 }
 
 button:hover, button#reset:hover {
-    background: gold;
-    border: 2px solid gold;
-    color: black;
-    border: 1px solid transparent;
+    background: var(--hoverblue);
 }
