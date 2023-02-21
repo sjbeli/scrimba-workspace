@@ -16,7 +16,7 @@ body {
     font-size: x-large;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(crimson, black);
     color: #ffffff;
     min-width: 320px;
 }
@@ -33,15 +33,18 @@ h1, h2, h3, h4, p {
     width: 220px;
     border-radius: 50%;
     border: 6px solid #FF005C;
-    background-color: white;
     padding: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 2.5rem;
+    transition: ease-in-out 0.3s all;
+}
+#bff-img:hover {
+    transform: scale(1.1);
 }
 #bday-age {
     background: #FF005C;
     padding: 5px 10px;
     border-radius: 5px;
-    margin: 5px 0 10px 0;
+    margin-bottom: 10px;
 }
 #bday-date {
     margin: 0;
@@ -95,11 +98,9 @@ footer {
     font-style: italic;
 }
 .right {
-    /* font-size: 0.75rem; */
     text-align: right;
     color: #666;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 span {
     display: block;
