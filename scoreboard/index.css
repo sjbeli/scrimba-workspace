@@ -43,7 +43,7 @@ h3 {
 #home-score, #guest-score {
     font-size: 6.25rem;
     color: orangered;
-    width: 220px;
+    width: 230px;
 }
 
 #home-score, #guest-score, #show-period {
