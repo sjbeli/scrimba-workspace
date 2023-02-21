@@ -12,7 +12,7 @@ setScore()
 function setScore(){
     homeScore.textContent = 0
     guestScore.textContent = 0
-    periodIs.textContent = 0
+    periodIs.textContent = 1
     countHome = 0
     countGuest = 0
     countPeriod = 1
