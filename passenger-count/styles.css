@@ -1,3 +1,12 @@
+/* RESET */
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  } /* END RESET */
+  
 body {
     background-image: url("pier.jpg");
     background-size: cover;

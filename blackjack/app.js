@@ -1,0 +1,1 @@
+document.getElementById('test').textContent = "added with js"
