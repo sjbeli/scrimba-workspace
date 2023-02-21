@@ -1,8 +1,10 @@
 // javascript
 let homeScore = document.getElementById('home-score')
 let guestScore = document.getElementById('guest-score')
+let periodIs = document.getElementById('show-period')
 let countHome = 0
 let countGuest = 0
+let countPeriod = 0
 
 // initialze & set / reset scores
 setScore()
@@ -10,8 +12,10 @@ setScore()
 function setScore(){
     homeScore.textContent = 0
     guestScore.textContent = 0
+    periodIs.textContent = 0
     countHome = 0
     countGuest = 0
+    countPeriod = 0
 }
 
 // homeScore functions
@@ -42,4 +46,15 @@ function add2Guest(){
 function add3Guest(){
     countGuest += 3
     guestScore.textContent = countGuest
+}
+
+// Change the period function
+function changePeriod(){
+    if (countPeriod < 4){
+        countPeriod += 1
+        periodIs.textContent = countPeriod
+    } else {
+        countPeriod = 0
+        periodIs.textContent = countPeriod
+    }
 }
