@@ -1,12 +1,40 @@
 /* RESET */
-*, *:before, *:after {
+/* *, *:before, *:after {
     box-sizing: border-box;
     margin: 0; padding: 0;
   }
   html {
     scroll-behavior: smooth;
-  } /* END RESET */
+  }  */
 
   body {
-    background: darkred;
-  }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-attachment: fixed;
+    background-size: cover;background-position: top center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+  width: 150px;
+  background: goldenrod;
+  color: #016f32;
+  font-weight: bold;
+  border: none;
+  padding: 5px 0;
+  border-radius: 3px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
