@@ -1,3 +1,16 @@
+
+let player = {
+    pName: 'SJ Beli',
+    chips: 800,
+    sayHello: function() {
+        console.log('Hello!' + " " + player.pName)
+    }
+}
+
+player.sayHello()
+console.log('You have $' + player.chips + " to play blackjack!")
+
+
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -6,6 +19,11 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
+// 3. Grab ahold of the player-el paragraph and store it in a variable called playerEl
+let playerEl = document.getElementById('player-el')
+
+// 4. Render the player's name and chips in playerEl
+playerEl.textContent = player.pName + ": $" + player.chips
 
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random()*13 ) + 1

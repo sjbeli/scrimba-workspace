@@ -1,28 +1,32 @@
-let player1Time = 102
-let player2Time = 107
+// let course = {
+//     title: "Learn CSS Grid for free",
+//     lessons: 16,
+//     creator: "Per Harald Borgen",
+//     length: 63,
+//     level: 2,
+//     isFree: true,
+//     tags: ["html", "css"]
+// }
 
-// cmd+d - ctrl+d
-function getFastestRaceTime() {
-    if (player1Time < player2Time) {
-        return player1Time
-    } else if (player2Time < player1Time) {
-        return player2Time
-    } else {
-        return player1Time
-    }
+
+// console.log( course.tags)
+
+
+// Create an object that represents an airbnb castle listing.
+// It should contain at least one boolean, one string, one number, and one array
+// Log out at least two of the keys using the dot notation
+
+
+let castle = {
+    title: "Live in my castle today",
+    isAvailable: true,
+    address: "123 Castle Way",
+    price: 200,
+    location: [
+        "Paris", 
+        "Yorkshire",
+        "Heaven"
+    ]
 }
 
-// let fastestRace = getFastestRaceTime()
-// console.log(fastestRace)
-
-// Write a function that returns the total race time
-// Call/invoke the function and store the returned value in a new variable
-// Finally, log the variable out
-
-
-function getTotalRaceTime() {
-    return player1Time + player2Time
-}
-
-let totalTime = getTotalRaceTime()
-console.log(totalTime)
+console.log( castle.isAvailable + " " + castle.location )
