@@ -90,8 +90,57 @@ The 5 largest countries in the world:
 // }
 // --------------------------
 
-let hands = ["rock", "paper", "scissor"]
+// let hands = ["rock", "paper", "scissors"]
 
 // Create a function that returns a random item from the array
 
+// function getHand() {
+//     let randomIndex = Math.floor(Math.random() * 3)
+//     return hands[randomIndex]
+// }
+// console.log(getHand())
+// --------------------------
 
+
+// let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
+
+// let stageEl = document.getElementById("stage")
+// let fightButton = document.getElementById("fightButton")
+
+// fightButton.addEventListener("click", function() {
+    // Challenge:
+    // When the user clicks on the "Pick Fighters" button, pick two random 
+    // emoji fighters and display them as i.e. "🦀 vs 🐢" in the "stage" <div>.
+
+//         let randomIndex1 = Math.floor(Math.random() * fighters.length)
+//         let randomIndex2 = Math.floor(Math.random() * fighters.length)
+
+//         console.log(fighters[randomIndex1] + " vs. " + fighters[randomIndex2])
+//         stageEl.textContent = fighters[randomIndex1] + " vs " + fighters[randomIndex2]
+// })
+// --------------------------
+
+
+let fruit = ["🍎", "🍊", "🍊", "🍊", "🍎", "🍎", "🍊"]
+let appleShelf = document.getElementById("apple-shelf")
+let orangeShelf = document.getElementById("orange-shelf")
+
+// Create a function that puts the apples onto the appleShelf
+// and the oranges onto the orangeShelf. Use a for loop,
+// a conditional statement, and the textContent property.
+
+function organize() {
+
+    // loop thru objects
+    for ( let i = 0; i < fruit.length; i++ ) {
+        if ( fruit[i] === "🍎" ) {
+            appleShelf.textContent += fruit[i] + " "
+            // console.log(fruit[i])
+        } else {
+            orangeShelf.textContent += fruit[i] + " "
+            // console.log(fruit[i])
+        }
+    }
+}
+
+organize()
