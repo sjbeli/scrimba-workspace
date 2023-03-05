@@ -7,24 +7,31 @@
     scroll-behavior: smooth;
   }  */
 
-  body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
-    background-attachment: fixed;
-    background-size: cover;background-position: top center;
-    background-repeat: no-repeat;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    padding-top: 1rem;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+  background-image: url("images/table.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 h1 {
-    color: goldenrod;
+  color: goldenrod;
+  text-transform: uppercase;
 }
 
 #message-el {
-    font-style: italic;
+  font-style: italic;
+}
+#message-el span {
+  /* color: black; */
+  font-weight: 900;
+  text-shadow: 0 0 4px goldenrod;
 }
 
 button {
@@ -33,8 +40,35 @@ button {
   color: #016f32;
   font-weight: bold;
   border: none;
-  padding: 5px 0;
+  padding: 0.5rem 0;
   border-radius: 3px;
-  margin-bottom: 2px;
-  margin-top: 2px;
+  margin: 0.5rem 0;
+  text-shadow: 0 0 2px black;
+}
+
+.btn-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cards-el {
+  color: gold;
+  text-shadow: 0 0 3px black;
+}
+
+#start-game {
+  background: crimson;
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+#new-card {
+  background: cornflowerblue;
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+.hide-btn {
+  background: transparent !important;
+  color: transparent !important;
+  text-shadow: none !important;
 }
