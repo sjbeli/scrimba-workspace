@@ -1,4 +1,3 @@
-
 let num1 = 12
 let num2 = 2
 document.getElementById("num1-el").textContent = num1
@@ -16,23 +15,20 @@ let sumEl = document.getElementById("sum-el")
 //  holds the html output here: <span id="sum-el">Sum: </span>
 
 function add() {
-   let result = num1 + num2
-//  add the 2 numbers
-   sumEl.textContent = "Sum: " + result
-//  attach output
+  let result = num1 + num2
+  //  add the 2 numbers
+  sumEl.textContent = "Sum: " + result
+  //  attach output
 }
 function subtract() {
-    let result = num1 - num2
-
-    sumEl.textContent = "Sum: " + result
+  let result = num1 - num2
+  sumEl.textContent = "Sum: " + result
 }
 function divide() {
-    let result = num1 / num2
-
-    sumEl.textContent = "Sum: " + result
+  let result = num1 / num2
+  sumEl.textContent = "Sum: " + result
 }
 function multiply() {
-    let result = num1 * num2
-
-    sumEl.textContent = "Sum: " + result
+  let result = num1 * num2
+  sumEl.textContent = "Sum: " + result
 }
